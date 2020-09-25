@@ -1,4 +1,4 @@
-21732152744644657
+21744992463170641
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -1257,8 +1257,8 @@ SW_Cherry_MX_1.00u_Plate
 Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u plate
 0
-2
-2
+6
+6
 Button_Switch_Keyboard
 SW_Cherry_MX_1.25u_PCB
 Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -1341,8 +1341,8 @@ SW_Cherry_MX_2.25u_Plate
 Cherry MX keyswitch, 2.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.25u plate
 0
-2
-2
+6
+6
 Button_Switch_Keyboard
 SW_Cherry_MX_2.75u_PCB
 Cherry MX keyswitch, 2.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -1369,8 +1369,8 @@ SW_Cherry_MX_6.25u_Plate
 Cherry MX keyswitch, 6.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 6.25u plate
 0
-2
-2
+6
+6
 Button_Switch_Keyboard
 SW_Cherry_MX_ISOEnter_PCB
 Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -96110,6 +96110,41 @@ ZIP19-1
 19
 19
 zhangxiaofei
+BTK05
+
+
+0
+26
+26
+zhangxiaofei
+HT16K33
+HT16K33
+HT16K33
+0
+28
+28
+zhangxiaofei
+MOS_FET_SOT23-3_HSOL
+SOT23
+
+0
+3
+3
+zhangxiaofei
+MX-1.5U
+
+
+0
+6
+4
+zhangxiaofei
+MX-2.75U
+
+
+0
+6
+4
+zhangxiaofei
 SWD
 
 
@@ -96117,12 +96152,26 @@ SWD
 4
 4
 zhangxiaofei
-TRACE_ANTENNA_2.4GHZ_25.7MM
-2.4GHZ INVERTED F PCB TRACE ANTENNA
-2.4GHZ INVERTED F PCB TRACE ANTENNA
+SWD_2_PIN
+
+
+0
+2
+2
+zhangxiaofei
+SW_SPDT_CK-JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
 0
 3
 3
+zhangxiaofei
+USB_C_Receptacle_XKB_U262-16XN-4BVC11
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
 zhangxiaofei
 USB_PCB
 
@@ -96130,10 +96179,17 @@ USB_PCB
 0
 4
 4
-zhangxiaofei
-ZXF_antenna
+zhangxiaofei_1
+SOIC-26
 
 
 0
+26
+26
+zhangxiaofei_1
+SOIC-28
+
+
 0
-0
+28
+28
