@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L NRF52840-rescue:nRF52832-QFxx U1
-U 1 1 5F9405F4
-P 5800 5100
-F 0 "U1" H 6050 5500 50  0000 L CNN
-F 1 "nRF52832-QFxx" H 6050 5100 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm" H 5800 3000 50  0001 C CNN
-F 3 "http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf" H 5300 5300 50  0001 C CNN
-	1    5800 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 4100 3600 4100
 Wire Wire Line
@@ -196,35 +185,31 @@ F 3 "" H 7900 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 2250 8450 2250
-Wire Wire Line
-	8450 2250 8450 2500
 Connection ~ 7900 2250
 Wire Wire Line
 	7900 2250 7900 1950
 $Comp
 L Device:C C8
 U 1 1 5F98C3DE
-P 8450 2650
-F 0 "C8" H 8565 2696 50  0000 L CNN
-F 1 "100nF" H 8565 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 2500 50  0001 C CNN
-F 3 "~" H 8450 2650 50  0001 C CNN
-	1    8450 2650
+P 8450 2700
+F 0 "C8" H 8565 2746 50  0000 L CNN
+F 1 "100nF" H 8565 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 2550 50  0001 C CNN
+F 3 "~" H 8450 2700 50  0001 C CNN
+	1    8450 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5F98CF5A
-P 8450 3050
-F 0 "#PWR0106" H 8450 2800 50  0001 C CNN
-F 1 "GND" H 8455 2877 50  0000 C CNN
-F 2 "" H 8450 3050 50  0001 C CNN
-F 3 "" H 8450 3050 50  0001 C CNN
-	1    8450 3050
+P 8450 3100
+F 0 "#PWR0106" H 8450 2850 50  0001 C CNN
+F 1 "GND" H 8455 2927 50  0000 C CNN
+F 2 "" H 8450 3100 50  0001 C CNN
+F 3 "" H 8450 3100 50  0001 C CNN
+	1    8450 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8450 2800 8450 3050
 Wire Wire Line
 	7650 4500 9100 4500
 Wire Wire Line
@@ -392,7 +377,7 @@ F 3 "~" H 9550 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9700 5250 10650 5250
+	9700 5250 10050 5250
 Wire Wire Line
 	7650 5100 9050 5100
 Wire Wire Line
@@ -475,23 +460,8 @@ $EndComp
 Wire Wire Line
 	4450 7150 4450 7250
 Connection ~ 4450 7250
-$Comp
-L Device:Antenna AE1
-U 1 1 5FA3ECEA
-P 10850 5250
-F 0 "AE1" V 10804 5380 50  0000 L CNN
-F 1 "Antenna" V 10895 5380 50  0000 L CNN
-F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" H 10850 5250 50  0001 C CNN
-F 3 "~" H 10850 5250 50  0001 C CNN
-	1    10850 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3950 4300 2550 4300
 Wire Wire Line
 	2550 4300 2550 3450
-Wire Wire Line
-	3950 4450 2050 4450
 Wire Wire Line
 	2050 4450 2050 4200
 Wire Wire Line
@@ -559,39 +529,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 3950 2050 4200
 Connection ~ 2050 4200
-NoConn ~ 3950 4600
-NoConn ~ 3950 4750
-NoConn ~ 3950 4900
-NoConn ~ 3950 5050
-NoConn ~ 3950 5200
-NoConn ~ 3950 5350
-NoConn ~ 3950 5500
-NoConn ~ 3950 5650
-NoConn ~ 3950 5800
-NoConn ~ 5000 6800
-NoConn ~ 5150 6800
-NoConn ~ 5300 6800
-NoConn ~ 5450 6800
-NoConn ~ 5600 6800
-NoConn ~ 5750 6800
-NoConn ~ 5900 6800
-NoConn ~ 6050 6800
-NoConn ~ 6200 6800
-NoConn ~ 6350 6800
-NoConn ~ 6500 6800
-NoConn ~ 7650 6000
-NoConn ~ 7650 5850
-NoConn ~ 7650 5700
-NoConn ~ 7650 5550
-NoConn ~ 7650 5400
-NoConn ~ 5800 3400
-NoConn ~ 5950 3400
-NoConn ~ 6050 3400
-NoConn ~ 6150 3400
-NoConn ~ 6250 3400
-NoConn ~ 6350 3400
-NoConn ~ 6450 3400
-NoConn ~ 6600 3400
 $Comp
 L power:+3.3V #PWR01
 U 1 1 5FAC9AD5
@@ -640,4 +577,404 @@ F 3 "~" H 8350 1850 50  0001 C CNN
 	1    8350 1850
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 5F9512DB
+P 8650 9000
+F 0 "J1" V 8775 8946 50  0000 C CNN
+F 1 "Conn_01x14" V 8866 8946 50  0000 C CNN
+F 2 "zhangxiaofei:half_hole_1" H 8650 9000 50  0001 C CNN
+F 3 "~" H 8650 9000 50  0001 C CNN
+	1    8650 9000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 5F99C772
+P 6650 2100
+F 0 "J2" V 6867 2046 50  0000 C CNN
+F 1 "Conn_01x14" V 6776 2046 50  0000 C CNN
+F 2 "zhangxiaofei:half_hole_1" H 6650 2100 50  0001 C CNN
+F 3 "~" H 6650 2100 50  0001 C CNN
+	1    6650 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2250 8450 2550
+Wire Wire Line
+	8450 3100 8450 2850
+$Comp
+L NRF52840-rescue:nRF52832-QFxx U1
+U 1 1 5F9405F4
+P 5800 5100
+F 0 "U1" H 6050 5500 50  0000 L CNN
+F 1 "nRF52832-QFxx" H 6050 5100 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm" H 5800 3000 50  0001 C CNN
+F 3 "http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf" H 5300 5300 50  0001 C CNN
+	1    5800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J3
+U 1 1 5FA32ED8
+P 1300 5500
+F 0 "J3" H 1218 4675 50  0000 C CNN
+F 1 "Conn_01x12" H 1218 4766 50  0000 C CNN
+F 2 "zhangxiaofei:half_hole_12" H 1300 5500 50  0001 C CNN
+F 3 "~" H 1300 5500 50  0001 C CNN
+	1    1300 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5FAAC6AA
+P 8650 8050
+F 0 "J4" H 8730 8042 50  0000 L CNN
+F 1 "Conn_01x02" H 8730 7951 50  0000 L CNN
+F 2 "zhangxiaofei:half_hole_2" H 8650 8050 50  0001 C CNN
+F 3 "~" H 8650 8050 50  0001 C CNN
+	1    8650 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5FAACF14
+P 8500 750
+F 0 "J5" H 8580 742 50  0000 L CNN
+F 1 "Conn_01x02" H 8580 651 50  0000 L CNN
+F 2 "zhangxiaofei:half_hole_2" H 8500 750 50  0001 C CNN
+F 3 "~" H 8500 750 50  0001 C CNN
+	1    8500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 8050 9150 8050
+Wire Wire Line
+	8850 8150 9150 8150
+Wire Wire Line
+	8300 750  8000 750 
+Wire Wire Line
+	8300 850  8000 850 
+Wire Wire Line
+	8000 850  8000 900 
+$Comp
+L power:GND #PWR0119
+U 1 1 5FAD966D
+P 9150 8150
+F 0 "#PWR0119" H 9150 7900 50  0001 C CNN
+F 1 "GND" V 9155 8022 50  0000 R CNN
+F 2 "" H 9150 8150 50  0001 C CNN
+F 3 "" H 9150 8150 50  0001 C CNN
+	1    9150 8150
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5FADA234
+P 8000 900
+F 0 "#PWR0120" H 8000 650 50  0001 C CNN
+F 1 "GND" V 8005 772 50  0000 R CNN
+F 2 "" H 8000 900 50  0001 C CNN
+F 3 "" H 8000 900 50  0001 C CNN
+	1    8000 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5F957CCF
+P 9150 8050
+F 0 "#PWR012" H 9150 7800 50  0001 C CNN
+F 1 "GND" V 9155 7922 50  0000 R CNN
+F 2 "" H 9150 8050 50  0001 C CNN
+F 3 "" H 9150 8050 50  0001 C CNN
+	1    9150 8050
+	0    -1   1    0   
+$EndComp
+Text GLabel 7650 5400 2    50   Input ~ 0
+P0.24
+Text GLabel 7650 5550 2    50   Input ~ 0
+P0.23
+Text GLabel 7650 5700 2    50   Input ~ 0
+P0.22
+Text GLabel 7650 5850 2    50   Input ~ 0
+SWDIO
+Text GLabel 7650 6000 2    50   Input ~ 0
+SWDCLK
+Text GLabel 6500 6800 3    50   Input ~ 0
+P0.21
+$Comp
+L power:GND #PWR011
+U 1 1 5F95A1FE
+P 8850 8400
+F 0 "#PWR011" H 8850 8150 50  0001 C CNN
+F 1 "GND" V 8855 8272 50  0000 R CNN
+F 2 "" H 8850 8400 50  0001 C CNN
+F 3 "" H 8850 8400 50  0001 C CNN
+	1    8850 8400
+	0    -1   1    0   
+$EndComp
+Text GLabel 6350 6800 3    50   Input ~ 0
+P0.20
+Text GLabel 5450 6800 3    50   Input ~ 0
+P0.14
+Text GLabel 5600 6800 3    50   Input ~ 0
+P0.15
+Text GLabel 5750 6800 3    50   Input ~ 0
+P0.16
+Text GLabel 5900 6800 3    50   Input ~ 0
+P0.17
+Text GLabel 6050 6800 3    50   Input ~ 0
+P0.18
+Text GLabel 6200 6800 3    50   Input ~ 0
+P0.19
+Text GLabel 5000 6800 3    50   Input ~ 0
+P0.11
+Text GLabel 5150 6800 3    50   Input ~ 0
+P0.12
+Text GLabel 5300 6800 3    50   Input ~ 0
+P0.13
+Text GLabel 8850 8500 2    50   Input ~ 0
+P0.24
+Text GLabel 8850 8600 2    50   Input ~ 0
+P0.23
+Text GLabel 8850 8700 2    50   Input ~ 0
+P0.22
+Text GLabel 8850 8800 2    50   Input ~ 0
+SWDIO
+Text GLabel 8850 8900 2    50   Input ~ 0
+SWDCLK
+Text GLabel 8850 9000 2    50   Input ~ 0
+P0.21
+Text GLabel 8850 9100 2    50   Input ~ 0
+P0.20
+Text GLabel 8850 9200 2    50   Input ~ 0
+P0.19
+Text GLabel 8850 9300 2    50   Input ~ 0
+P0.18
+Text GLabel 8850 9400 2    50   Input ~ 0
+P0.17
+Text GLabel 8850 9500 2    50   Input ~ 0
+P0.16
+Text GLabel 8850 9600 2    50   Input ~ 0
+P0.15
+Text GLabel 8850 9700 2    50   Input ~ 0
+P0.14
+Text GLabel 1500 6000 2    50   Input ~ 0
+P0.13
+Text GLabel 1500 5900 2    50   Input ~ 0
+P0.12
+Text GLabel 1500 5800 2    50   Input ~ 0
+P0.11
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5F98BFB8
+P 1850 5700
+F 0 "#PWR03" H 1850 5550 50  0001 C CNN
+F 1 "+3.3V" H 1865 5873 50  0000 C CNN
+F 2 "" H 1850 5700 50  0001 C CNN
+F 3 "" H 1850 5700 50  0001 C CNN
+	1    1850 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 5700 1850 5700
+Text GLabel 3950 5800 0    50   Input ~ 0
+P0.10
+Text GLabel 3950 5650 0    50   Input ~ 0
+P0.9
+Text GLabel 3950 5500 0    50   Input ~ 0
+P0.8
+Text GLabel 3950 4600 0    50   Input ~ 0
+P0.2
+Text GLabel 3950 4750 0    50   Input ~ 0
+P0.3
+Text GLabel 3950 4900 0    50   Input ~ 0
+P0.4
+Text GLabel 3950 5050 0    50   Input ~ 0
+P0.5
+Text GLabel 3950 5200 0    50   Input ~ 0
+P0.6
+Text GLabel 3950 5350 0    50   Input ~ 0
+P0.7
+Text GLabel 1500 5600 2    50   Input ~ 0
+P0.10
+Text GLabel 1500 5500 2    50   Input ~ 0
+P0.9
+Text GLabel 1500 5400 2    50   Input ~ 0
+P0.8
+Text GLabel 1500 5300 2    50   Input ~ 0
+P0.7
+Text GLabel 1500 5200 2    50   Input ~ 0
+P0.6
+Text GLabel 1500 5100 2    50   Input ~ 0
+P0.5
+Text GLabel 1500 5000 2    50   Input ~ 0
+P0.4
+Text GLabel 1500 4900 2    50   Input ~ 0
+P0.3
+Wire Wire Line
+	2550 4300 3950 4300
+Wire Wire Line
+	3950 4450 2050 4450
+Text GLabel 5950 1900 1    50   Input ~ 0
+P0.2
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5F9BB8BB
+P 6150 1700
+F 0 "#PWR05" H 6150 1550 50  0001 C CNN
+F 1 "+3.3V" V 6165 1828 50  0000 L CNN
+F 2 "" H 6150 1700 50  0001 C CNN
+F 3 "" H 6150 1700 50  0001 C CNN
+	1    6150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1700 6150 1900
+$Comp
+L power:GND #PWR04
+U 1 1 5F9C29DB
+P 6050 1700
+F 0 "#PWR04" H 6050 1450 50  0001 C CNN
+F 1 "GND" V 6055 1572 50  0000 R CNN
+F 2 "" H 6050 1700 50  0001 C CNN
+F 3 "" H 6050 1700 50  0001 C CNN
+	1    6050 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 1700 6050 1900
+$Comp
+L power:GND #PWR06
+U 1 1 5F9C5A9E
+P 6250 1650
+F 0 "#PWR06" H 6250 1400 50  0001 C CNN
+F 1 "GND" V 6255 1522 50  0000 R CNN
+F 2 "" H 6250 1650 50  0001 C CNN
+F 3 "" H 6250 1650 50  0001 C CNN
+	1    6250 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 1650 6250 1900
+Text GLabel 5950 3400 1    50   Input ~ 0
+P0.31
+Text GLabel 6600 3400 1    50   Input ~ 0
+P0.25
+Text GLabel 6450 3400 1    50   Input ~ 0
+P0.26
+Text GLabel 6350 3400 1    50   Input ~ 0
+P0.27
+Text GLabel 6250 3400 1    50   Input ~ 0
+P0.28
+Text GLabel 6150 3400 1    50   Input ~ 0
+P0.29
+Text GLabel 6050 3400 1    50   Input ~ 0
+P0.30
+Text GLabel 6550 1900 1    50   Input ~ 0
+P0.31
+Text GLabel 6650 1900 1    50   Input ~ 0
+P0.30
+Text GLabel 6750 1900 1    50   Input ~ 0
+P0.29
+Text GLabel 6850 1900 1    50   Input ~ 0
+P0.28
+Text GLabel 6950 1900 1    50   Input ~ 0
+P0.27
+Text GLabel 7050 1900 1    50   Input ~ 0
+P0.26
+Text GLabel 7150 1900 1    50   Input ~ 0
+P0.25
+$Comp
+L power:GND #PWR010
+U 1 1 5F9D6546
+P 8000 750
+F 0 "#PWR010" H 8000 500 50  0001 C CNN
+F 1 "GND" V 8005 622 50  0000 R CNN
+F 2 "" H 8000 750 50  0001 C CNN
+F 3 "" H 8000 750 50  0001 C CNN
+	1    8000 750 
+	0    1    1    0   
+$EndComp
+NoConn ~ 5800 3400
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5F9D922B
+P 7250 1900
+F 0 "#PWR09" H 7250 1750 50  0001 C CNN
+F 1 "+3.3V" H 7265 2073 50  0000 C CNN
+F 2 "" H 7250 1900 50  0001 C CNN
+F 3 "" H 7250 1900 50  0001 C CNN
+	1    7250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F9D9AD9
+P 6350 1900
+F 0 "#PWR07" H 6350 1650 50  0001 C CNN
+F 1 "GND" V 6355 1772 50  0000 R CNN
+F 2 "" H 6350 1900 50  0001 C CNN
+F 3 "" H 6350 1900 50  0001 C CNN
+	1    6350 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5F9DA710
+P 6450 1900
+F 0 "#PWR08" H 6450 1650 50  0001 C CNN
+F 1 "GND" V 6455 1772 50  0000 R CNN
+F 2 "" H 6450 1900 50  0001 C CNN
+F 3 "" H 6450 1900 50  0001 C CNN
+	1    6450 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5F9DDF74
+P 10050 5400
+F 0 "C13" H 9935 5354 50  0000 R CNN
+F 1 "0.5pF" H 9935 5445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10088 5250 50  0001 C CNN
+F 3 "~" H 10050 5400 50  0001 C CNN
+	1    10050 5400
+	-1   0    0    1   
+$EndComp
+Connection ~ 10050 5250
+Wire Wire Line
+	10050 5250 10650 5250
+Wire Wire Line
+	10050 5550 10050 5650
+$Comp
+L power:GND #PWR013
+U 1 1 5F9E12A6
+P 10050 5800
+F 0 "#PWR013" H 10050 5550 50  0001 C CNN
+F 1 "GND" H 10055 5627 50  0000 C CNN
+F 2 "" H 10050 5800 50  0001 C CNN
+F 3 "" H 10050 5800 50  0001 C CNN
+	1    10050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Antenna_Dipole AE1
+U 1 1 5FA44B05
+P 10850 5250
+F 0 "AE1" V 10854 5230 50  0000 L CNN
+F 1 "Antenna_Dipole" V 10945 5230 50  0000 L CNN
+F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Left" H 10850 5250 50  0001 C CNN
+F 3 "~" H 10850 5250 50  0001 C CNN
+	1    10850 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 5350 10400 5350
+Wire Wire Line
+	10400 5350 10400 5650
+Wire Wire Line
+	10400 5650 10050 5650
+Connection ~ 10050 5650
+Wire Wire Line
+	10050 5650 10050 5800
 $EndSCHEMATC

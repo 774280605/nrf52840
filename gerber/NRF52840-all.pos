@@ -1,26 +1,25 @@
-### Module positions - created on 10/20/20 21:54:31 ###
+### Module positions - created on 10/25/20 10:58:34 ###
 ### Printed by Pcbnew version kicad (5.1.6)-1
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val       Package                               PosX       PosY       Rot  Side
-C1        12pF      C_0201_0603Metric                 131.8079  -151.3421    0.0000  top
-C2        12pF      C_0201_0603Metric                 136.3926  -150.9687  180.0000  top
-C3        0.8pF     C_0201_0603Metric                 131.2466  -154.7762   90.0000  top
-C4        0.5pF     C_0201_0603Metric                 133.5478  -154.8168  270.0000  top
-C5        100nf     C_0201_0603Metric                 122.1788  -153.8821  180.0000  top
-C6        4.7uF     C_0402_1005Metric                 122.1864  -156.3180  180.0000  top
-C7        100nF     C_0201_0603Metric                 126.9187  -159.4206  180.0000  top
-C8        100nF     C_0201_0603Metric                 129.4816  -159.3901    0.0000  top
-C9        820pF     C_0402_1005Metric                 131.5184  -157.2755  270.0000  top
-C10       NC        C_0201_0603Metric                 133.0452  -153.6319  180.0000  top
-C11       100pF     C_0201_0603Metric                 131.7749  -152.5918  180.0000  top
-C12       100nF     C_0201_0603Metric                 128.2014  -150.7769  180.0000  top
-C13       NC        C_0201_0603Metric                 126.7358  -150.7795  180.0000  top
-C14       1.0uf     C_0402_1005Metric                 122.2375  -152.2832  180.0000  top
-C15       1.0uF     C_0402_1005Metric                 124.9477  -150.7134    0.0000  top
-C19       4.7uF     C_0402_1005Metric                 122.2067  -158.8376  180.0000  top
-C20       4.7uF     C_0402_1005Metric                 122.1940  -157.8547  180.0000  top
-L1        4.7nH     L_0201_0603Metric                 132.3798  -154.4472  180.0000  top
-U1        nRF52840  Nordic_AQFN-73-1EP_7x7mm_P0.5mm   127.0048  -154.9972    0.0000  top
-Y1        32M       Crystal_SMD_2016-4Pin_2.0x1.6mm   134.1930  -151.8222  180.0000  top
+# Ref     Val            Package                                           PosX       PosY       Rot  Side
+C1        12pF           C_0402_1005Metric                             135.6072  -115.8493   90.0000  top
+C2        12pF           C_0402_1005Metric                             131.5280  -115.8493  270.0000  top
+C3        0.8pF          C_0402_1005Metric                             132.1927  -122.1463   90.0000  top
+C4        100nF          C_0402_1005Metric                             121.9327  -117.3563  180.0000  top
+C5        100nF          C_0402_1005Metric                             122.2227  -125.1363   90.0000  top
+C6        NC             C_0402_1005Metric                             132.6727  -120.5463  180.0000  top
+C7        100pF          C_0402_1005Metric                             132.6627  -119.4963  180.0000  top
+C8        100nF          C_0402_1005Metric                             130.5027  -115.8463   90.0000  top
+C9        100nF          C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   120.1927  -116.0563  180.0000  top
+C10       1uF            C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   123.1427  -115.1463  270.0000  top
+C11       12pF           C_0402_1005Metric                             121.4727  -118.8163  270.0000  top
+C12       12pF           C_0402_1005Metric                             119.8927  -121.3563  180.0000  top
+C13       0.5pF          C_0402_1005Metric                             135.1327  -122.1463   90.0000  top
+L1        3.9nH          L_0402_1005Metric                             133.6627  -121.6863  180.0000  top
+L2        10uH           L_0603_1608Metric_Pad1.05x0.95mm_HandSolder   125.6527  -115.1363  270.0000  top
+L3        15nH           L_0402_1005Metric                             124.4027  -114.4263   90.0000  top
+U1        nRF52832-QFxx  QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm           126.3527  -121.5063    0.0000  top
+X1        32mHz          Crystal_SMD_2016-4Pin_2.0x1.6mm               133.5447  -115.9484    0.0000  top
+X2        32.768kHz      Crystal_SMD_3215-2Pin_3.2x1.5mm               119.7727  -118.8563   90.0000  top
 ## End
