@@ -1,27 +1,30 @@
-### Module positions - created on 01/24/21 18:41:26 ###
+### Module positions - created on 01/28/21 22:38:33 ###
 ### Printed by Pcbnew version kicad (5.1.9)-1
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val       Package                                       PosX       PosY       Rot  Side
-J2        USB_A     USB_A_CNCTech_1001-011-01101_Horizontal    85.1684  -139.3914  180.0000  bottom
-C1        12pF      C_0402_1005Metric                         104.1270  -133.3500   90.0000  top
-C2        12pF      C_0402_1005Metric                          99.3416  -133.3183  270.0000  top
-C3        1.0pF     C_0402_1005Metric                         101.7800  -137.7404   90.0000  top
-C4        1.0pF     C_0402_1005Metric                         104.8382  -137.7658  270.0000  top
-C5        100nf     C_0402_1005Metric                          91.8588  -135.4163  180.0000  top
-C6        4.7uF     C_0603_1608Metric                          91.7369  -138.5913  180.0000  top
-C7        100nf     C_0402_1005Metric                          98.6584  -143.0719    0.0000  top
-C8        100nF     C_0402_1005Metric                         100.7463  -143.0795  180.0000  top
-C9        820pF     C_0402_1005Metric                         101.8156  -139.6581  270.0000  top
-C11       100pF     C_0402_1005Metric                         102.6513  -135.4442  180.0000  top
-C12       100nF     C_0402_1005Metric                          98.3640  -133.2992   90.0000  top
-C14       1.0uF     C_0603_1608Metric                          95.7475  -133.2802    0.0000  top
-C15       1.0uF     C_0603_1608Metric                         105.2497  -135.4087    0.0000  top
-C19       4.7uF     C_0603_1608Metric                          91.8080  -143.3030  180.0000  top
-C20       4.7uF     C_0603_1608Metric                          91.7219  -140.1191  180.0000  top
-C26       1.5pF     C_0402_1005Metric                         107.7008  -136.8336   90.0000  top
-L1        3.9nH     L_0402_1005Metric                         103.3345  -137.2476  180.0000  top
-R1        0R        C_0402_1005Metric                         106.2555  -137.3213  180.0000  top
-U1        nRF52840  Nordic_AQFN-73-1EP_7x7mm_P0.5mm            97.2792  -138.6065    0.0000  top
-Y1        32M       Crystal_SMD_2016-4Pin_2.0x1.6mm           101.5692  -133.4224    0.0000  top
+# Ref     Val                                  Package                                       PosX       PosY       Rot  Side
+J2        USB_A                                USB_A_CNCTech_1001-011-01101_Horizontal    85.1684  -139.3914  180.0000  bottom
+C1        12pF                                 C_0402_1005Metric                         104.1270  -133.3500   90.0000  top
+C2        12pF                                 C_0402_1005Metric                          99.3416  -133.3183  270.0000  top
+C3        1.0pF                                C_0402_1005Metric                         101.7800  -137.7404   90.0000  top
+C4        1.0pF                                C_0402_1005Metric                         104.8382  -137.7658  270.0000  top
+C5        100nf                                C_0402_1005Metric                          91.8588  -135.4163  180.0000  top
+C6        4.7uF                                C_0603_1608Metric                          91.7369  -138.5913  180.0000  top
+C7        100nf                                C_0402_1005Metric                          98.6584  -143.0719    0.0000  top
+C8        100nF                                C_0402_1005Metric                         100.7463  -143.0795  180.0000  top
+C9        820pF                                C_0402_1005Metric                         101.8156  -139.6581  270.0000  top
+C11       100pF                                C_0402_1005Metric                         102.6513  -135.4442  180.0000  top
+C12       100nF                                C_0402_1005Metric                          98.3640  -133.2992   90.0000  top
+C14       1.0uF                                C_0603_1608Metric                          95.7475  -133.2802    0.0000  top
+C15       1.0uF                                C_0603_1608Metric                         105.2497  -135.4087    0.0000  top
+C19       4.7uF                                C_0603_1608Metric                          91.8080  -143.3030  180.0000  top
+C20       4.7uF                                C_0603_1608Metric                          91.7219  -140.1191  180.0000  top
+C26       1.5pF                                C_0402_1005Metric                         107.7008  -136.8336   90.0000  top
+L1        3.9nH                                L_0402_1005Metric                         103.3345  -137.2476  180.0000  top
+R1        0R                                   C_0402_1005Metric                         106.2555  -137.3213  180.0000  top
+REF**     QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm  QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm        67.6910  -145.7960  270.0000  top
+REF**     Nordic_AQFN-73-1EP_7x7mm_P0.5mm      Nordic_AQFN-73-1EP_7x7mm_P0.5mm            67.4370  -132.8420    0.0000  top
+REF**     E73-2G4M04S                          E73-2G4M04S                                93.8530  -107.1880   90.0000  top
+U1        nRF52840                             Nordic_AQFN-73-1EP_7x7mm_P0.5mm            97.2792  -138.6065    0.0000  top
+Y1        32M                                  Crystal_SMD_2016-4Pin_2.0x1.6mm           101.5692  -133.4224    0.0000  top
 ## End
