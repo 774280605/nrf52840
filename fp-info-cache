@@ -1,4 +1,4 @@
-18953987839683359
+18957211814921693
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82320,6 +82320,13 @@ SOT94P279X129-5N
 5
 5
 zhangxiaofei
+SW_Cherry_MX_1.00u_Plate
+Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u plate
+0
+4
+2
+zhangxiaofei
 SW_SPDT_CK-JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
@@ -82452,6 +82459,13 @@ SOT94P279X129-5N
 0
 5
 5
+zxf_pretty
+SW_Cherry_MX_1.00u_Plate
+Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u plate
+0
+4
+2
 zxf_pretty
 SW_SPDT_CK-JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf

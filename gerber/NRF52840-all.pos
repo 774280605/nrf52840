@@ -1,4 +1,4 @@
-### Module positions - created on 01/28/21 22:38:33 ###
+### Module positions - created on 02/01/21 23:30:37 ###
 ### Printed by Pcbnew version kicad (5.1.9)-1
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -22,9 +22,11 @@ C20       4.7uF                                C_0603_1608Metric                
 C26       1.5pF                                C_0402_1005Metric                         107.7008  -136.8336   90.0000  top
 L1        3.9nH                                L_0402_1005Metric                         103.3345  -137.2476  180.0000  top
 R1        0R                                   C_0402_1005Metric                         106.2555  -137.3213  180.0000  top
-REF**     QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm  QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm        67.6910  -145.7960  270.0000  top
+REF**     TQFP-64_10x10mm_P0.5mm               TQFP-64_10x10mm_P0.5mm                     68.2295  -161.7294    0.0000  top
 REF**     Nordic_AQFN-73-1EP_7x7mm_P0.5mm      Nordic_AQFN-73-1EP_7x7mm_P0.5mm            67.4370  -132.8420    0.0000  top
 REF**     E73-2G4M04S                          E73-2G4M04S                                93.8530  -107.1880   90.0000  top
+REF**     QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm  QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm        67.6910  -145.7960  270.0000  top
+REF**     LQFP-48_7x7mm_P0.5mm                 LQFP-48_7x7mm_P0.5mm                       67.9755  -118.0490    0.0000  top
 U1        nRF52840                             Nordic_AQFN-73-1EP_7x7mm_P0.5mm            97.2792  -138.6065    0.0000  top
 Y1        32M                                  Crystal_SMD_2016-4Pin_2.0x1.6mm           101.5692  -133.4224    0.0000  top
 ## End
